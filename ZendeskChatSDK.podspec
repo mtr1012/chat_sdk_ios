@@ -23,6 +23,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/zendesk/chat_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ChatSDK.xcframework'
   s.preserve_paths = 'ChatSDK.xcframework', 'ChatSDK.dSYMs/*.dSYM'
-  s.dependency 'ZendeskChatProvidersSDK', '~> 2.10.0'
-  s.dependency 'ZendeskMessagingSDK', '~> 3.8.1'
 end
